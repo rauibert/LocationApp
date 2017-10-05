@@ -28,3 +28,9 @@ body{
     padding: 20px;
     text-align: center;
 }
+
+#map{
+    padding: 20px 0px;
+    border: 1px solid;
+    height: 400px;
+}

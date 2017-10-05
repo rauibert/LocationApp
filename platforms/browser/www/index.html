@@ -5,14 +5,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <link rel="stylesheet" href="css/maps.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
     <title>LocationApp</title>
 </head>
 
 <body>
 
     <div class="header">
-        <span>LocationApp</span>
+        <i class="fa fa-map-o"></i>
+        <span> LocationApp </span>
     </div>
+
+    <div id="map"></div>
 
     <div id="coords"></div>
 
@@ -24,6 +29,7 @@
 
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/leaflet.js"></script>
     <script type="text/javascript" src="js/maps.js"></script>
 </body>
 
