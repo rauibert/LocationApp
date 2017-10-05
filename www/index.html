@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
-    </head>
-    <body>
-        <script type="text/javascript" src="cordova.js"></script>
-    </body>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <link rel="stylesheet" href="css/maps.css">
+    <title>LocationApp</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <span>LocationApp</span>
+    </div>
+
+    <div id="coords"></div>
+
+    
+
+    <div class="footer">
+        Aplicación para localización con PhoneGap
+    </div>
+
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/fastclick.js"></script>
+    <script type="text/javascript" src="js/maps.js"></script>
+</body>
+
 </html>

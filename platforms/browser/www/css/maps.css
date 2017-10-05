@@ -1,0 +1,30 @@
+/*Estilos aplicación de mapas*/
+
+body{
+    margin: 0px;
+    padding: 0px 0px 20px 0px;
+    font-size: 18px;
+    font-family: "Helvetica Neue Light", Helvetica, Arial;
+    font-weight: 300;
+}
+
+.header{
+    padding: 0 10px;
+    color: #667;
+    background-color: #EEE;
+    text-align: center;
+    height: 48.4px;
+    line-height: 48.4px;
+}
+
+.footer{
+    padding: 5px;
+    font-style: italic;
+    font-size: small;
+    text-align: center;
+}
+
+#coords{
+    padding: 20px;
+    text-align: center;
+}
